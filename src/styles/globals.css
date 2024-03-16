@@ -12,7 +12,7 @@ table {
 }
 
 table thead tr {
-    background-color: #6e0000;
+    background-color: rgb(59 130 246);
     color: #ffffff;
     text-align: left;
 }
@@ -31,5 +31,13 @@ table tbody tr:last-of-type {
 }
 
 tr:hover {
-    background-color: #ffa3a3; /* Choose your desired hover color */
+    background-color: rgb(59 130 246); /* Choose your desired hover color */
+}
+
+.info {
+    opacity: 0;
+}
+
+.container:hover .info {
+    opacity: 1;
 }
